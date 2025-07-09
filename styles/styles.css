@@ -6,6 +6,12 @@
     "wdth" 100;
 }
 
+.center-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .primary_color{
     color: #FD6E0A;
 }
@@ -22,6 +28,16 @@
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+section{
+    margin-top: 130px;
+}
+
+footer{
+    margin-top: 130px;
+    padding: 130px 386px 130px 230px;
+    background-color: #FFF8F3;
 }
 .header{
     background-image: url(/images/developer.png), url(/images/header_bg.png);
@@ -57,6 +73,12 @@ nav ul li a {
 .logo_title{
     font-size: 45px;
     font-weight: 800;
+}
+
+
+.menu-text{
+    font-size: 20px;
+    font-weight: 400px;
 }
 
 .btn-pri{
@@ -95,7 +117,6 @@ nav ul li a {
 
 
 .aboutContener{
-    margin-top: 130px;
     padding: 130px 156px;
     background-color: #FFF8F3;
 }
@@ -136,7 +157,6 @@ nav ul li a {
 }
 .skill{
     text-align: center;
-    margin-top: 130px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -152,14 +172,87 @@ nav ul li a {
     flex-direction: column;
     gap: 30px;
     text-align: left;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 .skillIcon{
     width: 44px;
     height: 44px;
+    
 }
-
 .skillDis{
     font-size: 16px;
     font-weight: normal;
+    color: #757575;
+}
+
+.cvdiv{
+    display: flex;
+    gap: 71px;
+}
+.cvTitel{
+    text-align: center;
+    margin-bottom: 113px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.columnTitle{
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.cvRow{
+    margin-bottom: 60px;
+}
+
+.cvheader{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.comName{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.dis{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.mainFooter{
+    display: flex;
+    gap: 117px;
+    text-align: left;
+}
+
+
+form{
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+input,textarea{
+    border-radius: 5px;
+    padding-left: 30px;
+    border: none;
+}
+
+input{
+    width: 461px;
+    height: 64px;
+}
+textarea{
+    width: 461px;
+    height: 180px;
+    padding-top: 18px;
+}
+
+input::placeholder , textarea::placeholder{
+    font-size: 16px;
+    font-weight: 400;
     color: #757575;
 }
